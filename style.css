@@ -1,0 +1,156 @@
+        body {
+            margin: 0;
+            background: #0b0012;
+            color: #e6e6e6;
+            font-family: Verdana, sans-serif;
+        }
+
+        a {
+            color: #ff4df2;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 65%;
+            margin: 0 auto;
+            display: flex;
+            gap: 20px;
+            padding-top: 20px;
+            flex-direction: column;
+
+        }
+        
+      
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(#ff00b7,#8c00ff);
+            color: white;
+            box-shadow: 0 0 20px #ff00f7;
+            border-bottom: 4px solid #00ffea;
+        }
+
+        header h1 {
+            font-family: Impact, sans-serif;
+            font-size: 48px;
+            text-shadow: 0 0 10px #ff00e6;
+            margin: 0;
+            position: center;
+        }
+
+        header img.logo {
+            width: 60px;
+            image-rendering: pixelated;
+            margin-top: 10px;
+        }
+
+        
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #12001f;
+            border-bottom: 3px solid #ff00d4;
+        }
+
+        nav a {
+            padding: 10px 20px;
+            margin: 5px;
+            background: #1a0033;
+            border: 2px solid #ff4df2;
+            box-shadow: 0 0 10px #ff00d4;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #ff00c8;
+            color: black;
+        }
+
+        
+        .posts {
+            flex: 3;
+        }
+
+        .post {
+            background: #150021;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 3px solid #ff00e6;
+            box-shadow: 0 0 12px #ff00e6;
+        }
+
+        .post h2 {
+            font-family: "Press Start 2P", monospace;
+            font-size: 18px;
+            color: #00ffea;
+            text-shadow: 0 0 8px #00fff7;
+        }
+
+
+        .text {
+            color: #00ffea;
+            text-shadow: 0 0 8px #00fff7;
+            text-align: center;
+        }
+
+        .face{
+            color: #00a2ff;
+            text-shadow: 0 0 8px #4c8aff;
+        }
+        .post img {
+            width: 100%;
+            border: 2px solid #00ffea;
+            box-shadow: 0 0 10px #00fff7;
+            image-rendering: pixelated;
+        }
+
+        .date {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-bottom: 10px;
+        }
+
+        
+        .sidebar {
+            flex: 1;
+            background: #0d0018;
+            padding: 15px;
+            border: 3px solid #00ffae;
+            box-shadow: 0 0 10px #00ffae;
+            height: fit-content;
+        }
+
+        .side-box {
+            margin-bottom: 20px;
+            background: #140022;
+            padding: 10px;
+            border: 3px solid #00ff88;
+            box-shadow: 0 0 10px #4deaff;
+        }
+
+        .side-box h3 {
+            font-family: Impact;
+            margin-top: 0;
+            color: #ff70ff;
+        }
+
+        .side-box img {
+            width: 100%;
+            border: 2px solid #ff4df2;
+            image-rendering: pixelated;
+        }
+
+       
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            background: #12001f;
+            border-top: 4px solid #ff00b7;
+            box-shadow: 0 0 20px #ff00d4;
+            color: #bdbdbd;
+            margin: 0;
+            position: center;
+            flex: 1;
+        }
