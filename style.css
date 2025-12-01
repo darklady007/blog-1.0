@@ -6,7 +6,7 @@
         }
 
         a {
-            color: #ff4df2;
+            color: #ff4daf;
             text-decoration: none;
         }
 
@@ -120,34 +120,14 @@
             border: 3px solid #00ffae;
             box-shadow: 0 0 10px #00ffae;
             height: fit-content;
-        }
-
-        .side-box {
-            background: #140022;
-            padding: 10px;
-            border: 3px solid #00ff88;
-            box-shadow: 0 0 10px #4deaff;
-            width: fit-content;
-            max-width: 100%;
-            margin: 0 auto;
-            display: flex;
-            gap: 20px;
-            padding-top: 20px;
-            flex-direction: column;
-        }
-
-        .side-box h3 {
-            font-family: Impact;
-            margin-top: 0;
-            color: #ff70ff;
+            margin-bottom: 20px;
         }
 
         .sidebar h3 {
             font-family: Impact;
             margin-top: 0;
-            color: #ff70ff;
+            color: #ff4daf;
         }
-
        
         footer {
             text-align: center;
@@ -167,3 +147,22 @@
            margin: 0 auto;
            display: flex;
         }
+
+        button {
+    background-color: #0d0018;
+    color: #0d0018;             
+    border: 2px solid #00ffea;   
+    border-radius: 12px;          
+    padding: 10px 20px;           
+    font-size: 16px;
+    cursor: pointer;            
+    transition: all 0.3s ease; 
+        }
+
+        button:hover {
+    background-color: #0d0018;
+    color: #00ffae;
+    box-shadow: 0 0 15px #00ffae, 0 0 30px #00ffae inset;
+    transform: scale(1.1); 
+        }
+
