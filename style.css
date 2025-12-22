@@ -99,6 +99,13 @@
             color: #00a2ff;
             text-shadow: 0 0 8px #4c8aff;
         }
+
+        a{
+            color: #00fff2;
+            text-shadow: 0 0 10px #00ff95;
+            text-decoration: none;
+        }
+
         .post img {
             width: 100%;
             border: 2px solid #00ffea;
@@ -124,7 +131,7 @@
         }
 
         .sidebar h3 {
-            font-family: Impact;
+            font-family: "Press Start 2P", monospace;
             margin-top: 0;
             color: #ff4daf;
         }

@@ -1,0 +1,18 @@
+        <div class="posts">
+            <div class="post">
+                <h2 style="font-size:200%;">Oi casada</h2>
+                <p class="date">Publicado em 02/12/2025</p>
+                <p>
+                
+                </p>
+
+                <details>
+ <summary style="cursor:pointer; list-style:none;">
+    <span style="color:rgb(0, 247, 255); text-decoration:underline; text-shadow: 0 0 10px #ff00d4;">mostrar mais</span>
+  </summary>
+                    <p>
+                   
+                </p>
+                </details>
+                </div>
+            </div>
